@@ -7,8 +7,8 @@ Just `yarn install` then `yarn start`!
 ## Specs
 
 **For all endpoints:**
-  * [x ] Each endpoint should accept JSON and return JSON.
-  * [ x] Each endpoint should respond with appropriate error codes: 200 for success, 4XX for user error, 5XX for server error.
+  * [x] Each endpoint should accept JSON and return JSON.
+  * [x] Each endpoint should respond with appropriate error codes: 200 for success, 4XX for user error, 5XX for server error.
 
 **For data storage:**
   * [ ] You should store data in memory
