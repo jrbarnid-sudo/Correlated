@@ -22,10 +22,6 @@ app.post("/set", async (req, res, next) => {
   try {
     const body = req.body;
 
-    // if (Object.keys(body).length === 0) {
-    //   return res.status(400).json({ message: `Valid key and JSON required` });
-    // }
-
     if (!body.key) {
       return res.status(400).json({ message: `Key is required` });
     }
